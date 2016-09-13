@@ -15,6 +15,7 @@
 		33948CCE1D87DD83001F681A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33948CCC1D87DD83001F681A /* LaunchScreen.storyboard */; };
 		33948CD91D87DD83001F681A /* GCD_BarrierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33948CD81D87DD83001F681A /* GCD_BarrierTests.m */; };
 		33948CE41D87DD84001F681A /* GCD_BarrierUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33948CE31D87DD84001F681A /* GCD_BarrierUITests.m */; };
+		33948CF31D87F5D2001F681A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 33948CF21D87F5D2001F681A /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		33948CDF1D87DD84001F681A /* GCD_BarrierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCD_BarrierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33948CE31D87DD84001F681A /* GCD_BarrierUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_BarrierUITests.m; sourceTree = "<group>"; };
 		33948CE51D87DD84001F681A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33948CF11D87F5D2001F681A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		33948CF21D87F5D2001F681A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				33948CC21D87DD83001F681A /* AppDelegate.m */,
 				33948CC41D87DD83001F681A /* ViewController.h */,
 				33948CC51D87DD83001F681A /* ViewController.m */,
+				33948CF11D87F5D2001F681A /* Person.h */,
+				33948CF21D87F5D2001F681A /* Person.m */,
 				33948CC71D87DD83001F681A /* Main.storyboard */,
 				33948CCA1D87DD83001F681A /* Assets.xcassets */,
 				33948CCC1D87DD83001F681A /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				33948CC61D87DD83001F681A /* ViewController.m in Sources */,
 				33948CC31D87DD83001F681A /* AppDelegate.m in Sources */,
+				33948CF31D87F5D2001F681A /* Person.m in Sources */,
 				33948CC01D87DD83001F681A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
